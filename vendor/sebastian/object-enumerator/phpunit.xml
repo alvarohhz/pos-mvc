@@ -15,10 +15,13 @@
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
-
-    <coverage processUncoveredFiles="true">
+    <filter>
+    <whitelist processUncoveredFiles="true">
         <include>
             <directory suffix=".php">src</directory>
         </include>
-    </coverage>
+    </whitelist>
+    </filter>
+    <php>
+    </php>
 </phpunit>
