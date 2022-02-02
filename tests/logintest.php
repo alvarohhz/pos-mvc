@@ -4,6 +4,10 @@
 // Butuh Framework PHPUnit
 use PHPUnit\Framework\TestCase;
 
+// Class yang mau di TEST.
+require_once "logintest";
+
+
 class logintest extends TestCase
 {
     

@@ -1,6 +1,6 @@
 <?php
 
-use phpunit\phpunit\src\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class itemtest extends TestCase
 {
