@@ -53,6 +53,8 @@
 </div>    
 <script type="text/javascript">
 	
+// login page
+
 	function Login(){
 		
 		username = $("#username").val();
